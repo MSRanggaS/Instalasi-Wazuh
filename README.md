@@ -18,7 +18,7 @@
     NET START WazuhSvc
     ```
 8. Apabila sudah selesai maka akan seperti ini
-![WhatsApp Image 2023-06-08 at 11 08 40](https://github.com/MSRanggaS/Instalasi-Wazuh/assets/61416036/a9fdbff0-d309-4cd9-8677-e553abea83cd)
+![Screenshot 2023-06-08 113230](https://github.com/MSRanggaS/Instalasi-Wazuh/assets/61416036/78c6900f-5ab7-44f7-9517-17c819c75f9a)
 
 
 ## OS Linux
