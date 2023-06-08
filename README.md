@@ -23,13 +23,18 @@
 
 ## OS Linux
 1. Jalankan command berikut secara berurutan
-        ```
-        curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
-        echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
-        apt update
+    ```
+    curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
 
-        WAZUH_MANAGER="10.15.43.15" apt-get install wazuh-agent
-        systemctl daemon-reload
-        systemctl enable wazuh-agent
-        systemctl start wazuh-agent
-        ```
+    echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+
+    apt update
+
+    WAZUH_MANAGER="10.15.43.15" apt-get install wazuh-agent
+
+    systemctl daemon-reload
+
+    systemctl enable wazuh-agent
+
+    systemctl start wazuh-agent
+    ```
