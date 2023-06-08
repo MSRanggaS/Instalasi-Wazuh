@@ -9,7 +9,7 @@
     wazuh-agent-4.4.1-1.msi /q WAZUH_MANAGER="10.15.43.15"
     ```
 5. pindah ke direktori C:\Program Files (x86)\ossec-agent
-6. Run command berikut
+6. Run command berikut, jangan lupa pakai internet ITS atau VPN ITS
     ```
     agent-auth.exe -m 10.15.43.15
     ```
